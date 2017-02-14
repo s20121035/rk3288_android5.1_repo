@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <PreferenceScreen 
+   		   android:key="dualscreen_manual"
+           android:fragment="com.android.settings.dualscreen.DualScreenSettings$ToggleDualScreenManualPreferenceFragment"
+           android:title="@string/dualscreen_manual"
+       />     
+
+</PreferenceScreen>
